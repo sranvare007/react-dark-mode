@@ -8,6 +8,7 @@ import { toggleDarkMode } from "../features/darkMode/darkModeFlag";
 export default function NavBar() {
   // const [darkModeEnabled, setIsDarkModeEnabled] = useState(false);
 
+  // @ts-ignore
   const darkModeEnabled = useSelector((state) => state.darkModeFlag.darkMode);
   const dispatch = useDispatch();
 

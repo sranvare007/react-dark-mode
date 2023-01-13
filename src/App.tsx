@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import NavBar from "./components/NavBar";
 
 export default function App() {
+  // @ts-ignore
   const darkModeEnabled = useSelector((state) => state.darkModeFlag.darkMode);
 
   return (
